@@ -74,13 +74,13 @@ button:active {
     transform: scale(0.98);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 428px) {
     .title, .digit, .currency-symbol {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .digit, .currency-symbol {
-        font-size: 10rem;
+        font-size: 13rem;
         margin: 0 0.3vw;
     }
 
