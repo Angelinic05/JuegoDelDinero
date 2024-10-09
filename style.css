@@ -1,0 +1,97 @@
+html {
+    background-image: url('Mesa\ de\ trabajo\ 2.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    height: 100%;
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+body {
+    margin: 0; 
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img.logo {
+    max-width: 80vw;
+    height: auto;
+    margin: 2vh 0;
+}
+
+h2, .title {
+    color: rgba(0, 255, 124);
+    font-size: 8vw;
+    text-align: center;
+    margin: 2vh 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.odometer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 5vw;
+}
+
+.digit, .currency-symbol {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.3vw;
+    font-size: 18vw;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.currency-symbol {
+    font-size: 12vw;
+}
+
+button {
+    background-color: rgba(0, 255, 124);
+    color: rgb(0, 0, 0);
+    padding: 1.5rem 3rem;
+    margin-top: 3vh;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+@media (min-width: 768px) {
+    .title, .digit, .currency-symbol {
+        font-size: 4rem;
+    }
+
+    .digit, .currency-symbol {
+        font-size: 10rem;
+        margin: 0 0.3vw;
+    }
+
+    img.logo {
+        max-width: 300px;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 1.5rem;
+    }
+}
