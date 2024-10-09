@@ -29,7 +29,6 @@ h2, .title {
     font-size: 8vw;
     text-align: center;
     margin: 2vh 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .odometer {
@@ -49,7 +48,6 @@ h2, .title {
     margin: 0 0.3vw;
     font-size: 18vw;
     font-weight: 800;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 .currency-symbol {
